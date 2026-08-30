@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alien.LOve</title>
-    </style>
 </head>
 <body>
     <h1 style="text-align:center;color: rgb(0, 250, 62);">It's a Alien!!</h1>
