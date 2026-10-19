@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="mate4.js" defer></script>
+  <link rel="stylesheet" href="mate4.css">
+
+</head>
+<body>
+    <h1>Responda as questões e receba um presente misterioso</h1>
+
+    <h2>Parte 4 do questionário - Laços de Repetição</h2>
+
+    <h3>Questão 1 - Contagem Progressiva</h3>
+    <p>Clique para exibir os números de 1 a 10:</p>
+    <button type="button" onclick="contagemProgressiva()">Contar de 1 a 10</button>
+    <p>Resultado: <output id="resultado_contagem_prog"></output></p>
+
+    <h3>Questão 2 - Contagem Regressiva</h3>
+    <p>Clique para exibir a contagem regressiva de 10 até 0:</p>
+    <button type="button" onclick="contagemRegressiva()">Contar de 10 a 0</button>
+    <p>Resultado: <output id="resultado_contagem_reg"></output></p>
+
+    <h3>Questão 3 - Tabuada Simples</h3>
+    <p>Digite um número para ver a tabuada (1 a 10):</p>
+    <input type="number" id="numero_tabuada">
+    <button type="button" onclick="mostrarTabuada()">Mostrar Tabuada</button>
+    <p>Resultado: <output id="resultado_tabuada"></output></p>
+
+    <h3>Questão 4 - Soma de Números</h3>
+    <p>Digite 5 números:</p>
+    <input type="number" id="soma_n1" placeholder="N1">
+    <input type="number" id="soma_n2" placeholder="N2">
+    <input type="number" id="soma_n3" placeholder="N3">
+    <input type="number" id="soma_n4" placeholder="N4">
+    <input type="number" id="soma_n5" placeholder="N5">
+    <button type="button" onclick="somarCincoNumeros()">Somar</button>
+    <p>Resultado: <output id="resultado_soma_cinco"></output></p>
+
+    <h3>Questão 5 - Apenas Pares</h3>
+    <p>Clique para exibir todos os números pares de 1 a 50:</p>
+    <button type="button" onclick="mostrarPares()">Mostrar Pares</button>
+    <p>Resultado: <output id="resultado_pares"></output></p>
+
+    <h3>Questão 6 - Validação de Dados</h3>
+    <p>Digite uma idade válida (entre 0 e 150):</p>
+    <input type="number" id="idade_valida">
+    <button type="button" onclick="validarIdade()">Validar Idade</button>
+    <p>Resultado: <output id="resultado_validacao_idade"></output></p>
+
+    <h3>Questão 7 - Média de Notas</h3>
+    <p>Digite as notas dos 10 alunos:</p>
+    <input type="number" id="nota_aluno1" placeholder="Aluno 1">
+    <input type="number" id="nota_aluno2" placeholder="Aluno 2">
+    <input type="number" id="nota_aluno3" placeholder="Aluno 3">
+    <input type="number" id="nota_aluno4" placeholder="Aluno 4">
+    <input type="number" id="nota_aluno5" placeholder="Aluno 5">
+    <input type="number" id="nota_aluno6" placeholder="Aluno 6">
+    <input type="number" id="nota_aluno7" placeholder="Aluno 7">
+    <input type="number" id="nota_aluno8" placeholder="Aluno 8">
+    <input type="number" id="nota_aluno9" placeholder="Aluno 9">
+    <input type="number" id="nota_aluno10" placeholder="Aluno 10">
+    <button type="button" onclick="calcularMediaTurma()">Calcular Média</button>
+    <p>Resultado: <output id="resultado_media_turma"></output></p>
+
+    <h3>Questão 8 - Fatorial</h3>
+    <p>Digite um número inteiro positivo:</p>
+    <input type="number" id="numero_fatorial">
+    <button type="button" onclick="calcularFatorial()">Calcular Fatorial</button>
+    <p>Resultado: <output id="resultado_fatorial"></output></p>
+
+    <h3>Questão 9 - Sequência de Fibonacci</h3>
+    <p>Clique para exibir os primeiros 10 números da sequência de Fibonacci:</p>
+    <button type="button" onclick="mostrarFibonacci()">Mostrar Fibonacci</button>
+    <p>Resultado: <output id="resultado_fibonacci_seq"></output></p>
+
+    <h3>Questão 10 - Números Primos</h3>
+    <p>Digite um número inteiro:</p>
+    <input type="number" id="numero_primo">
+    <button type="button" onclick="verificarPrimo()">Verificar se é Primo</button>
+    <p>Resultado: <output id="resultado_primo"></output></p>
+
+    <button type="button" onclick="presente()">Presente misterioso</button>
+</body>
+</html>
+

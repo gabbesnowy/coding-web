@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms 1</title>
+
+    <script src="mate.js" defer></script>
+  <link rel="stylesheet" href="mate.css">
+
+</head>
+<body>
+    <h1>Responta as questões e receba um presente misterioso</h1>
+
+    <h2>Parte 1 do questionario - </h2>
+
+     <h3>Questão 1-Área do triangulo</h3>
+  
+     <p>Digite a base:</p>
+     <input type="number" id="base">
+     <p>Digite a altura:</p>
+     <input type="number" id="altura">
+     <button type="button" onclick="calcularAreat()">Calcular Área</button>
+     <p>Resultado: <output id="resultado_areat"></output></p>
+
+     <h3>Questão 2-Área do retangulo</h3>
+
+     <p>Digite o comprimento:</p>
+     <input type="number" id="comprimento">
+     <p>Digite a largura:</p>
+     <input type="number" id="largura">
+     <button type="button" onclick="calcularArear()">Calcular Área</button>
+     <p>Resultado: <output id="resultado_arear"></output></p>
+
+     <h3>Questão 3-Perímetro do quadrado</h3>
+
+     <p>Digite o tamanho dos lados:</p>
+     <input type="number" id="lados">
+     <button type="button" onclick="calcularperimeto()">Calcular Perímeto</button>
+     <p>Resultado: <output id="resultado_perimeto"></output></p>
+
+     <h3>Questão 4-Área do circulo</h3>
+
+     <p>Qual o raio:</p>
+     <input type="number" id="raio1">
+     <button type="button" onclick="calcularAreac()">Calcular Área</button>
+     <p>Resultado: <output id="resultado_areac"></output></p>
+
+     <h3>Questão 5-Volume do cubo</h3>
+
+     <p>Digite lado:</p>
+     <input type="number" id="lado1">
+     <button type="button" onclick="calcularvolume()">Calcular Volume</button>
+     <p>Resultado: <output id="resultado_volume"></output></p>
+
+     <h3>Questão 6-Media de notas</h3>
+
+     <p>Qual nome do aluno?</p>
+     <input type="text" id="nomeal">
+     <p> nota 1</p>
+     <input type="number" id="nota1">
+     <p>nota 2</p>
+     <input type="number" id="nota2">
+     <p>nota 3</p>
+     <input type="number" id="nota3">
+     <button type="button" onclick="calcularmedia()">Calcular Media</button>
+     <p>Resultado: <output id="resultado_media"></output></p>
+
+     <h3>Questão 7-Conversão de celcius para farh</h3>
+
+     <p>Qual a temperatura?(celsius)</p>
+     <input type="number" id="celcius">
+     <button type="button" onclick="converte()">Calcular Conversão</button>
+     <p>Resultado: <output id="resultado_conversao"></output></p>
+
+     <h3>Questão 8-Índice de massa corporal</h3>
+
+     <p>Qual o peso?</p>
+     <input type="number" id="peso">
+     <p>Qual o altura?</p>
+     <input type="number" id="alturaps">
+     <button type="button" onclick="calcularimc()">Calcular IMC</button>
+     <p>Resultado: <output id="resultado_imc"></output></p>
+
+     <h3>Questão 9-Juros simples</h3>
+
+     <p>Qual é o capital?</p>
+     <input type="number" id="capital">
+     <p>Qual a taxa?</p>
+     <input type="number" id="taxa">
+     <p>Qual foi o tempo?</p>
+     <input type="number" id="tempo">
+     <button type="button" onclick="calcularjuros()">Calcular juros</button>
+     <p>Resultado: <output id="resultado_juros"></output></p>
+
+     <h3>Questão 10-Salario novo</h3>
+
+     <p>Qual o salario atual?</p>
+     <input type="number" id="salarioat">
+     <p>Qual o percentual de aumento?</p>
+     <input type="number" id="perceaum">
+     <button type="button" onclick="calcularaumento()">Calcular Aumento</button>
+     <p>Resultado: <output id="resultado_aumento"></output></p> 
+
+    <button type="button" onclick="proximapg1()">Proxima pagina</button>
+</body>
+</html>

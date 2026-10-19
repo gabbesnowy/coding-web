@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="mate3.js" defer></script>
+  <link rel="stylesheet" href="mate3.css">
+
+</head>
+<body>
+    <h1>Responda as questões e receba um presente misterioso</h1>
+
+    <h2>Parte 3 do questionário - Revisão Lógica</h2>
+
+    <h3>Questão 1 - Conversão simples</h3>
+    <p>Digite o valor em Reais (R$):</p>
+    <input type="number" id="reais_conv">
+    <p>Digite a cotação do Dólar:</p>
+    <input type="number" id="cotacao_dolar">
+    <button type="button" onclick="converterSimples()">Converter</button>
+    <p>Resultado: <output id="resultado_conv_simples"></output></p>
+
+    <h3>Questão 2 - Concatenação de nomes</h3>
+    <p>Digite o primeiro nome:</p>
+    <input type="text" id="primeiro_nome">
+    <p>Digite o sobrenome:</p>
+    <input type="text" id="sobrenome">
+    <button type="button" onclick="concatenarNomes()">Mostrar Saudação</button>
+    <p>Resultado: <output id="resultado_concatenacao"></output></p>
+
+    <h3>Questão 3 - Área de Terreno</h3>
+    <p>Digite a largura (m):</p>
+    <input type="number" step="0.1" id="largura_terreno">
+    <p>Digite o comprimento (m):</p>
+    <input type="number" step="0.1" id="comprimento_terreno">
+    <button type="button" onclick="calcularAreaTerreno()">Calcular Área</button>
+    <p>Resultado: <output id="resultado_area_terreno"></output></p>
+
+    <h3>Questão 4 - Troco da mercearia</h3>
+    <p>Digite o preço unitário do produto (R$):</p>
+    <input type="number" step="0.01" id="preco_unitario">
+    <p>Digite a quantidade comprada:</p>
+    <input type="number" id="quantidade_comprada">
+    <p>Digite o valor pago em dinheiro (R$):</p>
+    <input type="number" step="0.01" id="valor_pago">
+    <button type="button" onclick="calcularTroco()">Calcular Troco</button>
+    <p>Resultado: <output id="resultado_troco"></output></p>
+
+    <h3>Questão 5 - Média de duas pessoas com mensagem</h3>
+    <p>Digite o nome da primeira pessoa:</p>
+    <input type="text" id="nome1_media">
+    <p>Digite a idade da primeira pessoa:</p>
+    <input type="number" id="idade1_media">
+    <p>Digite o nome da segunda pessoa:</p>
+    <input type="text" id="nome2_media">
+    <p>Digite a idade da segunda pessoa:</p>
+    <input type="number" id="idade2_media">
+    <button type="button" onclick="mediaIdades()">Calcular Média</button>
+    <p>Resultado: <output id="resultado_media_idades"></output></p>
+
+    <h3>Questão 6 - Par ou Ímpar</h3>
+    <p>Digite um número inteiro:</p>
+    <input type="number" id="numero_par_impar_a3">
+    <button type="button" onclick="verificarParImparA3()">Verificar</button>
+    <p>Resultado: <output id="resultado_par_impar_a3"></output></p>
+
+    <h3>Questão 7 - Maior de dois números</h3>
+    <p>Digite o primeiro número inteiro:</p>
+    <input type="number" id="maior_n1_a3">
+    <p>Digite o segundo número inteiro:</p>
+    <input type="number" id="maior_n2_a3">
+    <button type="button" onclick="verificarMaiorA3()">Verificar</button>
+    <p>Resultado: <output id="resultado_maior_a3"></output></p>
+
+    <button type="button" onclick="proximapg3()">Próxima página</button>
+</body>
+</html>

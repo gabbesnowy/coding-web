@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms 2</title>
+
+    <script src="mate2.js" defer></script>
+  <link rel="stylesheet" href="mate2.css">
+
+</head>
+<body>
+    <h1>Responda as questões e receba um presente misterioso</h1>
+
+    <h2>Parte 2 do questionário - Estruturas Condicionais</h2>
+
+    <h3>Questão 1 - Par ou Ímpar</h3>
+
+    <p>Digite um número inteiro:</p>
+    <input type="number" id="numero_par_impar">
+    <button type="button" onclick="verificarParImpar()">Verificar</button>
+    <p>Resultado: <output id="resultado_par_impar"></output></p>
+
+    <h3>Questão 2 - Aprovação Escolar</h3>
+
+    <p>Digite a nota 1:</p>
+    <input type="number" id="nota_ap1">
+    <p>Digite a nota 2:</p>
+    <input type="number" id="nota_ap2">
+    <button type="button" onclick="verificarAprovacao()">Verificar</button>
+    <p>Resultado: <output id="resultado_aprovacao"></output></p>
+
+    <h3>Questão 3 - Maior de Dois</h3>
+
+    <p>Digite o primeiro número:</p>
+    <input type="number" id="maior_n1">
+    <p>Digite o segundo número:</p>
+    <input type="number" id="maior_n2">
+    <button type="button" onclick="verificarMaior()">Verificar</button>
+    <p>Resultado: <output id="resultado_maior"></output></p>
+
+    <h3>Questão 4 - Calculadora de IMC</h3>
+
+    <p>Qual o peso (kg)?</p>
+    <input type="number" id="imc_peso">
+    <p>Qual a altura (m)?</p>
+    <input type="number" id="imc_altura">
+    <button type="button" onclick="calcularImcClassificacao()">Calcular IMC</button>
+    <p>Resultado: <output id="resultado_imc_class"></output></p>
+
+    <h3>Questão 5 - Triângulos</h3>
+
+    <p>Digite o lado A:</p>
+    <input type="number" id="lado_a">
+    <p>Digite o lado B:</p>
+    <input type="number" id="lado_b">
+    <p>Digite o lado C:</p>
+    <input type="number" id="lado_c">
+    <button type="button" onclick="verificarTriangulo()">Verificar Triângulo</button>
+    <p>Resultado: <output id="resultado_triangulo"></output></p>
+
+    <h3>Questão 6 - Ano Bissexto</h3>
+
+    <p>Digite um ano:</p>
+    <input type="number" id="ano_bissexto">
+    <button type="button" onclick="verificarBissexto()">Verificar</button>
+    <p>Resultado: <output id="resultado_bissexto"></output></p>
+
+    <h3>Questão 7 - Acesso Restrito (Porta Lógica)</h3>
+
+    <p>Digite a senha (ex: 1234):</p>
+    <input type="password" id="senha_porta">
+    <p>A digital está correta?</p>
+    <select id="digital_porta">
+        <option value="true">Sim</option>
+        <option value="false">Não</option>
+    </select>
+    <button type="button" onclick="verificarAcesso()">Abrir Porta</button>
+    <p>Resultado: <output id="resultado_acesso"></output></p>
+
+    <h3>Questão 8 - Calculadora Simples</h3>
+
+    <p>Digite o primeiro número:</p>
+    <input type="number" id="calc_n1">
+    <p>Digite o segundo número:</p>
+    <input type="number" id="calc_n2">
+    <p>Escolha a operação:</p>
+    <select id="calc_operacao">
+        <option value="+">+ (Soma)</option>
+        <option value="-">- (Subtração)</option>
+        <option value="*">* (Multiplicação)</option>
+        <option value="/">/ (Divisão)</option>
+    </select>
+    <button type="button" onclick="calculadoraSimples()">Calcular</button>
+    <p>Resultado: <output id="resultado_calc"></output></p>
+
+    <h3>Questão 9 - Menu de Restaurante</h3>
+
+    <p>Escolha o código do prato:</p>
+    <select id="menu_restaurante">
+        <option value="1">1 - Hambúrguer</option>
+        <option value="2">2 - Pizza</option>
+        <option value="3">3 - Salada</option>
+        <option value="4">Outro código</option>
+    </select>
+    <button type="button" onclick="menuRestaurante()">Ver Preço</button>
+    <p>Resultado: <output id="resultado_menu"></output></p>
+
+    <h3>Questão 10 - Conversor de Moedas</h3>
+
+    <p>Digite o valor em Reais (R$):</p>
+    <input type="number" id="valor_reais">
+    <p>Escolha a moeda de destino:</p>
+    <select id="moeda_destino">
+        <option value="1">1 - Dólar</option>
+        <option value="2">2 - Euro</option>
+        <option value="3">3 - Peso</option>
+    </select>
+    <button type="button" onclick="converterMoeda()">Converter</button>
+    <p>Resultado: <output id="resultado_moeda"></output></p>
+
+    <h3>Questão 11 - Verificador de Fibonacci (ULTRA Hard)</h3>
+
+    <p>Digite o primeiro número (N1):</p>
+    <input type="number" id="fib_n1">
+    <p>Digite o segundo número (N2):</p>
+    <input type="number" id="fib_n2">
+    <p>Digite o terceiro número (N3):</p>
+    <input type="number" id="fib_n3">
+    <p>Digite o quarto número (N4):</p>
+    <input type="number" id="fib_n4">
+    <button type="button" onclick="verificarFibonacci()">Verificar Fibonacci</button>
+    <p>Resultado: <output id="resultado_fibonacci"></output></p>
+
+    <button type="button" onclick="proximapg2()">Próxima página</button>
+</body>
+</html>

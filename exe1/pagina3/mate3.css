@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input, button {
+    background-color: #333333; 
+    color: white; 
+    border: 1px solid #555555; 
+    padding: 8px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555555; 
+}
